@@ -1,0 +1,7 @@
+reactmodule.page:
+  path: '/react-app'
+  defaults:
+    _controller: '\Drupal\web\modules\react_module\Controller\ReactController::page'
+    _title: 'React App'
+  requirements:
+    _permission: 'access content'

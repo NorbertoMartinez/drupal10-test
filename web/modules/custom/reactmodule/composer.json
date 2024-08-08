@@ -1,0 +1,10 @@
+{
+  "name": "your-vendor/react-app",
+  "version": "1.0.0",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "YourVendor\\ReactApp\\": "src/"
+    }
+  }
+}
